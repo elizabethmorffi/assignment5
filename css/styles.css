@@ -1,0 +1,96 @@
+body {
+
+    color: #177c46;
+    background-color: pink;
+    font-family: fantasy;
+    font-size: 15px
+}
+
+li {
+    color: saddlebrown;
+}
+
+.flexboxmasterswitch {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.multi-colum-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+box-sizing: border-box;
+margin: 0 0 0 0;
+
+html {
+    color: #ccc;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+.tshirts {
+
+    color: rebeccapurple;
+
+}
+
+.tshirts-font-big {
+    font-size: 30px;
+}
+
+.tshirts-font-heavy {
+    font-weight: 900;
+    color: aqua;
+}
+
+body ul,
+body ol {
+    background-color: lavender
+}
+
+#content p a {
+    color: #00ff00;
+}
+
+.centered {
+
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+    margin: 100px auto 10px auto;
+    width: 80%;
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-family: cursive
+}
+
+
+body ol,
+body ul {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 30rem) {
+    h1 {
+        color: deeppink
+    }
