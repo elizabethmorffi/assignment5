@@ -1,5 +1,5 @@
 body {
-
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(background.jpg);
     color: #177c46;
     background-color: pink;
     font-family: fantasy;
@@ -7,7 +7,7 @@ body {
 }
 
 li {
-    color: saddlebrown;
+    color: black;
 }
 
 .flexboxmasterswitch {
@@ -28,7 +28,7 @@ box-sizing: border-box;
 margin: 0 0 0 0;
 
 html {
-    color: #ccc;
+    color: #000;
 }
 
 h2 {
@@ -37,26 +37,26 @@ h2 {
 
 .tshirts {
 
-    color: rebeccapurple;
+    color: black;
 
 }
 
 .tshirts-font-big {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .tshirts-font-heavy {
     font-weight: 900;
-    color: aqua;
+    color: black;
 }
 
 body ul,
 body ol {
-    background-color: lavender
+    background-color: lightpink
 }
 
 #content p a {
-    color: #00ff00;
+    color: #000;
 }
 
 .centered {
