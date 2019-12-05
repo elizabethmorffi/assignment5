@@ -27,9 +27,8 @@ h1 {
 box-sizing: border-box;
 margin: 0 0 0 0;
 
-html {
-    color: #000;
-}
+
+    color: #0000;
 
 h2 {
     color: antiquewhite;
@@ -90,7 +89,6 @@ body ul {
     color: blueviolet;
 }
 
-@media screen and (max-width: 30rem) {
-    h1 {
-        color: deeppink
-    }
+@media screen and (max-width: 30rem) h1 {
+    color: deeppink;
+}
